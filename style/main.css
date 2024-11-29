@@ -985,7 +985,7 @@ button {
 }
 
 .is-hidden .modal {
-  transform: translate(0) rotate(360deg);
+  transform: translate(0) translateY(1000px);
 }
 
 .modal {
@@ -1141,7 +1141,7 @@ button {
   .modal__span {
     font-size: 14px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.2px;
     letter-spacing: 0.42px;
   }
 }
