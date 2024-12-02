@@ -1,23 +1,23 @@
 // @media screen and (min-width: 480px) {
-      
+
 // }
 
 // @media screen and (min-width: 768px) {
-  
+
 // }
 
 // @media screen and (min-width: 1200px) {
-  
+
 // }
 
 .advant {
   padding-top: 60px;
   padding-bottom: 60px;
 
-@media screen and (min-width: 1200px) {
-  padding-top: 94px;
-  padding-bottom: 0;
-}
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 0;
+  }
 
   &__list {
     flex-direction: column;
@@ -25,7 +25,6 @@
     gap: 30px;
 
     @media screen and (min-width: 480px) {
-           
     }
 
     @media screen and (min-width: 768px) {
@@ -34,13 +33,10 @@
     }
 
     @media screen and (min-width: 1200px) {
-      
     }
   }
 
   &__item {
-    
-
     &::before {
       content: "";
       margin-bottom: 30px;
@@ -52,16 +48,16 @@
       background-position: center;
       background-repeat: no-repeat;
 
-       @media screen and (min-width: 480px) {
+      @media screen and (min-width: 480px) {
         width: 450px;
-       }
-   @media screen and (min-width: 768px) {
-  width: 354px;
-   }
+      }
+      @media screen and (min-width: 768px) {
+        width: 354px;
+      }
 
- @media screen and (min-width: 1200px) {
-  width: 270px;
- }
+      @media screen and (min-width: 1200px) {
+        width: 270px;
+      }
     }
 
     &:first-child::before {
@@ -92,18 +88,14 @@
     margin-bottom: 10px;
 
     @media screen and (min-width: 480px) {
-           
     }
 
     @media screen and (min-width: 768px) {
       text-align: start;
-
     }
 
     @media screen and (min-width: 1200px) {
-      
     }
-  
   }
 
   &__text {
@@ -113,15 +105,15 @@
     line-height: 1.71;
     letter-spacing: 0.4px;
 
-     @media screen and (min-width: 480px) {
+    @media screen and (min-width: 480px) {
       width: 450px;
-       }
- @media screen and (min-width: 768px) {
-  width: 354px;
-  }
+    }
+    @media screen and (min-width: 768px) {
+      width: 354px;
+    }
 
-@media screen and (min-width: 1200px) {
-  width: 270px;
-}
+    @media screen and (min-width: 1200px) {
+      width: 270px;
+    }
   }
 }

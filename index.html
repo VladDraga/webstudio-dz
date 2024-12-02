@@ -121,6 +121,7 @@
         <div class="container">
           <ul class="advant__list">
             <li class="advant__item">
+              <div class="advant__box"></div>
               <h2 class="advant__title">УВАГА ДО ДЕТАЛЕЙ</h2>
               <p class="advant__text">
                 Ідейні міркування, і навіть початок повсякденної роботи з
@@ -128,6 +129,7 @@
               </p>
             </li>
             <li class="advant__item">
+              <div class="advant__box"></div>
               <h2 class="advant__title">ПУНКТУАЛЬНІСТЬ</h2>
               <p class="advant__text">
                 Завдання організації, особливо рамки і місце навчання кадрів
@@ -135,12 +137,14 @@
               </p>
             </li>
             <li class="advant__item">
+              <div class="advant__box"></div>
               <h2 class="advant__title">ПЛАНУВАННЯ</h2>
               <p class="advant__text">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
             <li class="advant__item">
+              <div class="advant__box"></div>
               <h2 class="advant__title">СУЧАСНІ ТЕХНОЛОГІЇ</h2>
               <p class="advant__text">
                 Значимість цих проблем настільки очевидна, що реалізація
@@ -155,19 +159,46 @@
           <h2 class="work__title">Чим ми займаємося</h2>
           <ul class="work__list">
             <li class="work__item">
-              <img src="./img/comp.jpg" alt="comp" class="work-images" />
+              <picture>
+                <source
+                  srcset="
+                    ./img/desktop/desktopdodat@1x.webp 1x,
+                    ./img/desktop/desktopdodat@2x.webp 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <img src="./img/comp.jpg" alt="comp" class="work-images" />
+              </picture>
               <div class="work__wrap">
                 <h3 class="work__deck">Десктопні додатки</h3>
               </div>
             </li>
             <li class="work__item">
-              <img src="./img/tel.jpg" alt="tel" class="work__images" />
+              <picture>
+                <source
+                  srcset="
+                    ./img/desktop/mobiledodat@1x.webp 1x,
+                    ./img/desktop/mobiledodat@2x.webp 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <img src="./img/tel.jpg" alt="tel" class="work__images" />
+              </picture>
               <div class="work__wrap">
                 <h3 class="work__deck">Мобільні додатки</h3>
               </div>
             </li>
             <li class="work__item">
-              <img src="./img/tablet.jpg" alt="tablet" class="work__images" />
+              <picture>
+                <source
+                  srcset="
+                    ./img/desktop/dizainedodat@1x.webp 1x,
+                    ./img/desktop/dizainedodat@2x.webp 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <img src="./img/tablet.jpg" alt="tablet" class="work__images" />
+              </picture>
               <div class="work__wrap">
                 <h3 class="work__deck">Дизайнерські рішення</h3>
               </div>
@@ -180,7 +211,30 @@
           <h2 class="team__title">Наша команда</h2>
           <ul class="team__list">
             <li class="team__item">
-              <img src="./img/igor.jpg" alt="igor" class="team__img" />
+              <picture>
+                <source
+                  srcset="
+                    ./img/desktop/igordesktop@1x.webp 1x,
+                    ./img/desktop/igordesktop@2x.webp 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./img/tablet/igortablet@1x.webp 1x,
+                    ./img/tablet/igortablet@2x.webp 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./img/mobile/igormobile@1x.webp 1x,
+                    ./img/mobile/igormobile@2x.webp 2x
+                  "
+                  media="(max-width: 767px)"
+                />
+                <img src="./img/igor.jpg" alt="igor" class="team__img" />
+              </picture>
               <div class="team__wrap">
                 <h3 class="team__name">Ігор Дем'яненко</h3>
                 <p class="team__taxt">Product Designer</p>
@@ -217,7 +271,31 @@
               </div>
             </li>
             <li class="team__item">
-              <img src="./img/olha.jpg" alt="olha" class="team__img" />
+              <picture>
+                <source
+                  srcset="
+                    ./img/desktop/olgadesktop1x.webp 1x,
+                    ./img/desktop/olgadesktop1x.webp 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./img/tablet/olgatablet@1x.webp 1x,
+                    ./img/tablet/olgatablet@2x.webp 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./img/mobile/olgamobile@1x.webp 1x,
+                    ./img/mobile/olgamobile@2x.webp 2x
+                  "
+                  media="(max-width: 767px)"
+                />
+                <source />
+                <img src="./img/olha.jpg" alt="olha" class="team__img" />
+              </picture>
               <div class="team__wrap">
                 <h3 class="team__name">Ольга Рєпіна</h3>
                 <p class="team__taxt">Frontend Developer</p>
@@ -254,7 +332,30 @@
               </div>
             </li>
             <li class="team__item">
-              <img src="./img/mukola.jpg" alt="mukola" class="team__img" />
+              <picture>
+                <source
+                  srcset="
+                    ./img/desktop/mikoladesktop@1x.webp 1x,
+                    ./img/desktop/mikoladesktop@2x.webp 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./img/tablet/mikolatablet@1x.webp 1x,
+                    ./img/tablet/mikolatablet@2x.webp 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./img/mobile/mikolamobile@1x.webp 1x,
+                    ./img/mobile/mikolamobile@2x.webp 2x
+                  "
+                  media="(max-width: 767px)"
+                />
+                <img src="./img/mukola.jpg" alt="mukola" class="team__img" />
+              </picture>
               <div class="team__wrap">
                 <h3 class="team__name">Микола Тарасов</h3>
                 <p class="team__taxt">Marketing</p>
@@ -291,7 +392,27 @@
               </div>
             </li>
             <li class="team__item">
-              <img src="./img/michael.jpg" alt="michael" class="team__img" />
+              <picture>
+                <source
+                  srcset="
+                    ./img/desktop/mihailodesktop@1x.webp 1x,
+                    ./img/desktop/mihailodesktop@2x.webp 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./img/tablet/mihailotablet@1x.webp 1x,
+                    ./img/tablet/mihailotablet@2x.webp 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  src="./img/mobile/mihailomobile@1x.webp 1x, ./img/mobile/mihailomobile@2x.webp 2x"
+                  media="(max=width: 767px)"
+                />
+                <img src="./img/michael.jpg" alt="michael" class="team__img" />
+              </picture>
               <div class="team__wrap">
                 <h3 class="team__name">Михайло Єрмаков</h3>
                 <p class="team__taxt">UI Designer</p>
